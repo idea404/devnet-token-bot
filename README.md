@@ -2,9 +2,9 @@
 
 ## Features
 
-- Restricted access: Only authorized members can use the bot
-- Existing members can add new members to the authorized list
-- Distribute RPC URLs to new users based on their email or Telegram handle
+- Distribute RPC URLs to users based on their Telegram username
+- Provide a sandbox URL for web IDE access
+- Logging of bot activities
 
 ## Setup
 
@@ -39,5 +39,5 @@ python bot.py
 ## Usage
 
 - `/start`: Start the bot and receive instructions
-- `/addmember`: Add your email or Telegram handle to the authorized list
-- `/gettoken`: Receive the RPC URL based on your email or Telegram handle
+- `/getrpcurl`: Receive your assigned RPC URL
+- `/getsandboxurl`: Get the URL for the web IDE sandbox
